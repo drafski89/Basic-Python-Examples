@@ -1,14 +1,16 @@
-x = 0
+# Basic if-loop
+
+# Set up two variables
+x = 1
 y = 0
 
-while True:
+# if comparison, double '=' to check equality
+if x == 1:
+	print x
 
-	if x == 1:
-		print y
+# else if in Python 2 is "elif"
+elif x == 0:
+	print y
 
-	elif x == 0:
-		x = 10
-
-	else:
-		y += 1
-		x += 1
+else:
+	y = y + 1
